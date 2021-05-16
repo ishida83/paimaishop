@@ -16,6 +16,62 @@
   url('../font/iconfont.ttf?v=230') format('truetype');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+      url(../font/montserrat-v15-latin-300.woff2) format('woff2');
+      /* url('//media.fromjapan.co.jp/webfont/montserrat-v15-latin-300.woff2') format('woff2'); */
+  /* Super Modern Browsers */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+      url('../font/montserrat-v15-latin-regular.woff2') format('woff2');
+  /* Super Modern Browsers */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+      url('../font/montserrat-v15-latin-500.woff2') format('woff2');
+  /* Super Modern Browsers */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+      url('../font/montserrat-v15-latin-600.woff2') format('woff2');
+  /* Super Modern Browsers */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+      url('../font/montserrat-v15-latin-700.woff2') format('woff2');
+  /* Super Modern Browsers */
+}
+
+
 /* font-class */
 .layui-icon-house-find:before{content:"\e619"}
 .layui-icon-house-person:before{content:"\e660"}
@@ -53,7 +109,7 @@ body.user{background-color: #FAFAFA;}
 .house-header .house-banner a.shop .layui-badge{width: 16px; height: 16px; border-radius: 50%; padding: 0; position: absolute; top: -3px; right: -5px;} 
 .house-header .layui-nav{width: 100%; background: #FFF; text-align: center; left: 0; top: 50px;}
 .house-header .layui-nav .layui-nav-item{display: block;}
-.house-header .layui-nav .layui-nav-item a{font-size: 16px; color: #000; padding: 0 30px;}
+.house-header .layui-nav .layui-nav-item a{font-size: 16px; color: #000; padding: 0 10px;}
 .house-header .layui-nav .layui-nav-item a:hover, .house-header .layui-nav .layui-this a{color: #dabb92;}
 .house-header .layui-nav .layui-this:after, .house-header .layui-nav .layui-nav-bar{height: 1px; background-color: #dabb92;}
 .house-header #switch{position: absolute; top: 12px; right: 15px; width: 25px; height: 25px; background-color: #FFF; cursor: pointer; transition: 0.3s; border: 1px solid #FFF; border-radius: 3px;}
@@ -329,7 +385,7 @@ body .address-class .layui-layer-btn a{width: 160px; height: 42px; background-co
   .house-usershop .house-usershop-table-num #toCope{left: 40%;}
 }
 @media screen and (min-width: 768px){
-  .house-header:after{content: ''; position: absolute; left: 0; top: 40px; width: 100%; height: 1px; background-color: #F2F2F2;}
+  .house-header:after{content: ''; position: absolute; left: 0; top: 90px; width: 100%; height: 1px; background-color: #F2F2F2;}
   .house-header .house-nav{height: 40px; line-height: 40px;}
   .house-header .house-nav .layui-breadcrumb{display: block;}
   .house-header .house-nav .house-breadcrumb-icon{display: none; right: 10px;}
@@ -388,9 +444,9 @@ body .address-class .layui-layer-btn a{width: 160px; height: 42px; background-co
   .house-usershop .house-usershop-table-num button{width: 160px; height: 82px; font-size: 22px;}
 }
 @media screen and (min-width: 992px){
-  .house-header .layui-nav .layui-nav-item a{padding: 0 49px;} 
+  /* .house-header .layui-nav .layui-nav-item a{padding: 0 49px;}  */
   .house-header.scroll .layui-nav{width: 70%;}
-  .house-header.scroll .layui-nav .layui-nav-item a{padding: 0 30px;}
+  .house-header.scroll .layui-nav .layui-nav-item a{padding: 0 10px;}
   .hot-cate .cate{height: 220px; line-height: 220px;}
   .hot-cate .cate div p{font-size: 20px; line-height: 60px; letter-spacing: 1px;}
   .hot-cate .cate div span{width: 60px; line-height: 58px;}

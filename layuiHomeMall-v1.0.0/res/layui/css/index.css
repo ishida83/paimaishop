@@ -1,0 +1,71 @@
+html{
+    font-size: 16px;
+}
+
+.w-full {
+    width: 100%!important;
+}
+
+.justify-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.hidden {
+    display: none!important;
+}
+
+body {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+}
+    
+.shop-icons .small{
+    width: 15px;
+    height: 15px;
+}
+
+.house-header .layui-nav .layui-nav-item a{
+    margin-bottom: 1.2rem;
+    line-height: 2rem;
+    border-bottom: solid 0.1rem transparent;
+    /* UA-9217591 */
+}
+
+.house-header .layui-nav .layui-nav-item .hover\:border-yauc:hover{
+    border-bottom: 0.1rem solid #fed953;
+}
+
+.house-header .layui-nav .layui-nav-item .hover\:border-amzn:hover{
+    border-bottom: 0.1rem solid #ff9a01;
+}
+
+.house-header .layui-nav .layui-nav-item .hover\:border-rakt:hover{
+    border-bottom: 0.1rem solid #bd0711;
+}
+.house-header .layui-nav .layui-nav-item .hover\:border-ota:hover{
+    border-bottom: 0.1rem solid #ffb619;
+}
+.house-header .layui-nav .layui-nav-item .hover\:border-mercari:hover{
+    border-bottom: 0.1rem solid rgb(0, 149, 238);
+}
+.house-header .layui-nav .layui-nav-item .hover\:border-yashop:hover{
+    border-bottom: 0.1rem solid #d90000;
+}
+
+@media screen and (max-width:768px){
+    .justify-center.w-full{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .w-full .block{
+        display: none;
+    }
+    .justify-center.w-full{
+        height: 48.51px;
+        overflow:hidden;
+    }
+}
