@@ -89,7 +89,10 @@ body{background-color: #FFF;}
 body.user{background-color: #FAFAFA;}
 
 /* 头部 */
-.house-header .layui-container{overflow: hidden; transition: all 400ms ease-out;}
+.house-header .layui-container {
+  overflow: hidden;
+  transition: all 400ms ease-out;
+}
 .house-header{width: 100%; background-color: #FFF; border-bottom: 2px solid #E8E8E6;}
 .house-header .house-nav{height: 50px; line-height: 50px; position: relative;}
 .house-header .house-nav .layui-breadcrumb{display: none; position: absolute; right: 23px;}

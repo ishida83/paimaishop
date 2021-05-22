@@ -52,7 +52,7 @@ layui.define(['element', 'carousel', 'table', 'util'], function(exports){
       ,title: false
       ,shadeClose: true
       ,area: '300px'
-      ,content: '<div id="house-search" class="layui-form"><input type="text" placeholder="搜索好物" class="layui-input"></div>'
+      ,content: '<div id="house-search" class="layui-form"><input type="text" placeholder="Find/Order/Bid" class="layui-input"></div>'
       ,success: function(layero, index){
         $("#house-search").find("input").on('keydown', function(e){
           if(e.keyCode === 13){
@@ -67,10 +67,10 @@ layui.define(['element', 'carousel', 'table', 'util'], function(exports){
   //首页——点击切换
   $(".house-header").find("#switch").on('click', function(){
     if(houseNav.hasClass("close")){
-      $(".house-header").children(".layui-container")[0].style.height = 60 + houseNav[0].offsetHeight + 'px';
+      // $(".house-header").children(".layui-container")[0].style.height = 60 + houseNav[0].offsetHeight + 'px';
       houseNav.removeClass("close");
     }else{
-      $(".house-header").children(".layui-container")[0].style.height = 50 + 'px';
+      // $(".house-header").children(".layui-container")[0].style.height = 50 + 'px';
       houseNav.addClass("close");
     }
   });
