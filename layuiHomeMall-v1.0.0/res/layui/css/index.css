@@ -69,6 +69,7 @@ body {
     flex-direction: column;
     position: fixed!important;
     right: 0;
+    -ms-transform: translateX(100%) translateX(-38px);
     transform:translateX(calc(100% - 38px));
     padding: 5px;
     transition: all .2s ease;
@@ -129,6 +130,8 @@ body {
         height:100vh;
         width: 80vw !important;
         text-align: left !important;
+
+        box-shadow: 0 10px 10px #333;
     }
     .layui-nav.close{
         transform: translate(-100vw, 0);
@@ -147,10 +150,29 @@ body {
     }
 
     .toolbox{
+        -ms-transform: translateX(100%) translateX(-18px);
         transform:translateX(calc(100% - 18px));
         padding-left: 4px;
     }
 }
+
+@supports (-webkit-backdrop-filter: blur(1px)) {
+    @media screen and (max-width:768px){
+        .house-header{
+            background-color: hsla(0,100%,100%,0.9);
+            box-shadow: 0 0 30px #ccc;
+        }
+        .house-header .layui-nav{
+            top: 25px;
+        }
+    }
+}
+@media all and (-ms-high-contrast:none) and (max-width:768px) {
+    .house-header .layui-nav{
+        top: 73.49px;
+        z-index:999;
+    }
+} 
 
 @media screen and (min-width:768px){
     .w-full .block{
