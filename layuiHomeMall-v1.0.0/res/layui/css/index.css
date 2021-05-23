@@ -111,6 +111,10 @@ body {
     .house-header{
         top: 23.49px;
         background: unset;
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        -ms-backdrop-filter: saturate(180%) blur(20px);
+        -moz-backdrop-filter: saturate(180%) blur(20px);
+        -o-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter: saturate(180%) blur(20px);
         box-shadow: 0 0 3px #333;
         border-bottom: 0;
