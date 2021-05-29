@@ -120,7 +120,7 @@ body.user{background-color: #FAFAFA;}
 .house-header #switch span{position: absolute; top: 25%; left: 3px; width: 18px; height: 1px; background-color: #dabb92;}
 .house-header #switch span.second{position: absolute; top: 50%;}
 .house-header #switch span.third{position: absolute; top: 75%;}
-.house-carousel{height: 500px; text-align: center;}
+.house-carousel{height: 81px; text-align: center;}
 .house-carousel>*[carousel-item] > *
 ,.house-carousel .layui-carousel{background: none;}
 
@@ -371,7 +371,7 @@ body .address-class .layui-layer-btn a{width: 160px; height: 42px; background-co
 
 @media screen and (max-width: 768px){
   .house-header .layui-container{height: 50px;}
-  .house-carousel{height: 150px;}
+  .house-carousel{height: 60px;}
   .layui-carousel img{height: 150px;}
   .house-title{margin-top: 0;}
 }
